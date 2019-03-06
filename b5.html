@@ -24,15 +24,14 @@
         'Ursa Major',
         'Leo'
     ];
-    let x = parseFloat(prompt("Tìm chòm sao từ tên sao"));
-    function find() {
+    function find(x) {
         for (let i = 0; i < a.length; i++) {
-            if (x == a[i]) {
+            if (x === a[i]) {
                 alert(b[i])
             }
         }
     }
-    find();
+    find(prompt("Tìm chòm sao từ tên sao"));
 </script>
 </body>
 </html>
